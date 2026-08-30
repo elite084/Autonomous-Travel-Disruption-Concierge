@@ -1,0 +1,10 @@
+Project: Aegis - Agentic AI Travel Operating System
+
+1. Multi-Agent Orchestration: 
+Implementing the system using LangGraph demonstrated the value of assigning specialized agents to different responsibilities (flight recovery, hotel management, travel benefits, policy validation, and user preferences). This modular approach enables better reasoning and easier maintenance compared to a monolithic LLM prompt.[cite: 1]
+
+2. Scoring Mechanisms (JRS):
+The Journey Recovery Score (JRS) calculation was critical. Traditional systems prioritize either cost or arrival time, but holistically weighting arrival delay, total recovery cost, traveler preferences, loyalty benefit utilization, and risk of further disruption ensured the entire journey—not just the flight—was optimized.[cite: 1]
+
+3. Automation vs. Autonomy Control:
+Implementing the Confidence Threshold Check proved vital for the user experience. Automatically executing high-confidence plans while falling back to user approval (Medium/Low Confidence) for complex scenarios bridges the gap between proactive assistance and necessary human oversight.
